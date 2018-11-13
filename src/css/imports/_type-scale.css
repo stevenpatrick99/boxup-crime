@@ -5,9 +5,10 @@
 .f5 { font-size: var(--spacing-medium); }
 .f6 { font-size: .875rem; }
 
+
 @media (--breakpoint-not-small) {
   .f-6-ns,
-  .f-headline-ns { font-size: 6rem; }
+  .f-headline-ns { font-size: 3rem; }
   .f-5-ns,
   .f-subheadline-ns { font-size: 5rem; }
   .f1-ns { font-size: 3rem; }

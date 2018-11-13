@@ -1,18 +1,22 @@
-<div class="pv5 pv6-l ph3 bg-center cover" style="background-image: url('{{.imageUrl}}')">
-  <div class="mw7 center ph3">
-    <div class="db mb3">
-      <div class="mw7 relative bg-fix-primary mb3">
-        <h1 class="f2 f1-l b di lh-title mb3 white mw6 bg-primary">
-          {{.title}}
-        </h1>
-      </div>
-      <div class="mw7 relative bg-fix-primary">
-        {{ if .subtitle }}
-        <p class="b f4 di lh-title mb3 white mw6 bg-primary">
-          {{.subtitle}}
-        </p>
-        {{ end }}
-      </div>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="/img/boxing-black.jpg" alt="First slide">
+      <div class="centered"><h1>Rebuilding Misguided Dreams</h1></div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/img/school.jpg" alt="Second slide">
+      <div class="centered"><h1>Getting young people out of gangs and into brighter futures</h1></div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/img/boxing-kid.png" alt="Third slide">
+      <div class="centered"><h1>Using boxing to create a positive influence to the younger generation.</h1></div>
     </div>
   </div>
+
 </div>

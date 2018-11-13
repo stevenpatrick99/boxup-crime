@@ -6,3 +6,21 @@ img {
 img:not(.w-100) {
   border-radius: var(--border-radius);
 }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    font-size: 30px;
+    color:white;
+    text-align: center;
+}
+@media(min-width:768px)
+{
+.navbar, .navbar-header, .navbar-brand, .navbar-nav, .navbar-nav ul, .navbar-nav li, .navbar-nav>li>a{
+	margin-top: 0px;
+	min-height: 28px;
+	height: 50px;
+	padding: 3px 5px 1px 5px;
+}
+}

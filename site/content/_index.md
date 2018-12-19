@@ -3,39 +3,20 @@ title: BOXUP - CRIME
 subtitle: Test
 image: /img/1541360285936.jpg
 blurb:
-  heading: Why Kaldi?
+  heading: Welcome to BoxUp Crime
   text: >-
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    We work with young people at risk of having their lives ruined by crime and motivate them to rebuild and recapture their dreams and aspirations. We believe that every young person is entitled to a bright future, inspired by their hopes and dreams, regardless of their background.
 intro:
-  heading: What we offer
+  heading: What do we do?
   text: >-
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone.
-products:
-  - image: img/illustrations-coffee.svg
-    text: >-
-      We sell green and roasted coffee beans that are sourced directly from
-      independent farmers and farm cooperatives. We’re proud to offer a variety
-      of coffee beans grown with great care for the environment and local
-      communities. Check our post or contact us directly for current
-      availability.
-  - image: /img/illustrations-coffee-gear.svg
-    text: >-
-      We offer a small, but carefully curated selection of brewing gear and
-      tools for every taste and experience level. No matter if you roast your
-      own beans or just bought your first french press, you’ll find a gadget to
-      fall in love with in our shop.
-values:
-  heading: Our values
-  text: >-
-    Coffee is an amazing part of human culture but it has a dark side too – one
-    of colonialism and mindless abuse of natural resources and human lives. We
-    want to turn this around and return the coffee trade to the drink’s
-    exhilarating, empowering and unifying nature.
+      BoxUpCrime is a social youth organisation operating out of the London borough Barking and Dagenham. We work with young people at risk of having their lives ruined by crime and motivate them to rebuild and recapture their dreams and aspirations. We believe that every young person is entitled to a bright future, inspired by their hopes and dreams, regardless of their background.
+testimonials:
+- author: John A. Miller
+  quote: >-
+    The coaches and athletes made me feel like I was part of the box by helping
+    and cheering me on and that was the case for everyone.
+awards:
+- awardtitle: Christian Funders’ Forum Gold Award for Best BAME Project 
+  year: >-
+    2018
 ---
-

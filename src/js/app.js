@@ -8,3 +8,16 @@ if (window.netlifyIdentity) {
     }
   });
 }
+$('.section-one').hover(function() {
+  $('.custom-container').toggleClass('one-is-active');
+});
+
+$('.section-two').hover(function() {
+  $('.custom-container').toggleClass('two-is-active');
+});
+
+$('.scroll').click(function() {
+  $('html, body').animate({
+        scrollTop: $(".container").offset().top
+    }, 800);
+});

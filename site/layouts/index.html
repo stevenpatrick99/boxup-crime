@@ -2,11 +2,24 @@
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
+
 {{ partial "short-text" .Params.blurb}}
 
 {{ partial "2-up" .Params }}
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+<div class="flex-l mhn1-l ph3 center mw7">
+
+  {{ range .Params.testimonials }}
+    {{ partial "blockquote" . }}
+  {{ end }}
+  {{ range .Params.awards }}
+    {{ partial "award" . }}
+  {{ end }}
+</div>
+
+{{partial "endtext" .}}
+
+{{partial "cards" .}}
 
 {{ partial "blog" . }}
 

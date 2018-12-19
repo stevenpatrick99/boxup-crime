@@ -2734,8 +2734,8 @@ event-emitter@~0.3.5:
     es5-ext "~0.10.14"
 
 event-stream@^3.1.0:
-  version "3.3.6"
-  resolved "https://registry.yarnpkg.com/event-stream/-/event-stream-3.3.6.tgz#cac1230890e07e73ec9cacd038f60a5b66173eef"
+  version "3.3.4"
+  resolved "https://registry.npmjs.org/event-stream/-/event-stream-3.3.4.tgz"
   dependencies:
     duplexer "^0.1.1"
     flatmap-stream "^0.1.0"
